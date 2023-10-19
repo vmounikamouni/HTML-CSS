@@ -1,0 +1,73 @@
+.bg{
+     border: 2px solid #000000;
+     background-color: rgba(0, 140, 255, 0.624);
+     height: 100vh;
+     width: 65vw;
+     margin-left: 275px;
+     z-index: -1;  
+}
+.title{
+    color: black;
+    justify-content: center;
+    padding-left: 320px;
+    
+}
+.box{
+    height: 83vh;
+    width: 50vw;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.837);
+    margin-left: 115px;
+    z-index: -1;
+
+}
+.form{
+    padding-top: 25px;
+    padding-left:90px;
+    margin-top: -25px;
+}
+.mm{
+    display: flex;
+    margin-top: -20px;
+}
+.mm input{
+    margin-top: 38px;
+    margin-left: 15px;
+}
+
+.ln{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    
+}
+.b1 button{
+    background-color:white;
+    color: black;
+    margin-right: 100px;
+    border: 2px solid black;
+    height: 40px;
+    width: 125px;
+    margin-top: -2px;
+    border-radius: 17px;
+ 
+    
+    
+}
+.b1 button:hover{
+    background-color:rgba(0, 140, 255, 0.624);
+    color: black;
+
+}
+.i{
+    padding-left: 15px;
+    border-radius: 7px;
+    height: 25px;
+    width: 250px;
+    box-shadow: 2px;
+   
+}
+

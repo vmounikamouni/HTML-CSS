@@ -1,0 +1,51 @@
+.calculator {
+    width: 250px;
+    margin: 200px auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #ac-button{  
+    background-color: green;
+  }
+  
+  #display {
+    width: 365%;
+    padding: 10px;
+    font-size: 24px;
+    background-color:white; /* Green background for AC button */
+    color:black; /* White text */
+    border: none;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: black; */
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #000; /* Black background for number buttons */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button.special {
+    background-color: hsla(195, 2%, 67%, 0.751); /* Light brown background for special character buttons */
+    color: #000; /* Black text */
+  }
+
+  .special1{
+    width: 90%;
+    background-color: green;
+  }
+  
+  button:hover {
+    background-color: #333; /* Slightly darker background on hover for number buttons */
+  }
